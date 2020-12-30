@@ -7,17 +7,16 @@ form.addEventListener('submit', (e) => {
   console.log(email)
   const message= form.message.value;
   console.log(message);
-  window.location.href = 'mailto:kumarvimal558@gmail.com?subject=Hi, I am -' + name + ' (' + email + ')' + '&body=' + message +'&cc=vimal@letskhabar.com&bcc='+email;
+  window.location.href = 'mailto:abhishek.btech.ec18@iiitranchi.ac.in?subject=Hi, I am -' + name + ' (' + email + ')' + '&body=' + message +'&cc=Abhishek@letskhabar.com&bcc='+email;
   // swal("Sucess!");
 })
-document.querySelector('.twitter').addEventListener('click', () => window.location.href = "https://twitter.com/vimalverma558")
-document.querySelector('.facebook').addEventListener('click', () => window.location.href = "https://facebook.com/vimalverma558")
-document.querySelector('.github').addEventListener('click', () => window.location.href = "https://github.com/vimalverma558")
-document.querySelector('.instagram').addEventListener('click', () => window.location.href = "https://instagram.com/vimalverma558")
-document.querySelector('.dev').addEventListener('click', () => window.location.href = "https://dev.to/vimal")
-document.querySelector('.linkedin').addEventListener('click', () => window.location.href = "https://www.linkedin.com/in/vimalverma558/")
-document.querySelector('.dribbble').addEventListener('click', () => window.location.href = "https://dribbble.com/vimalverma")
-document.querySelector('.mail').addEventListener('click', () => window.location.href = 'mailto:kumarvimal558@gmail.com')
+document.querySelector('.twitter').addEventListener('click', () => window.location.href = "https://twitter.com/amazing__ak")
+document.querySelector('.facebook').addEventListener('click', () => window.location.href = "https://www.facebook.com/AmazingAK")
+document.querySelector('.github').addEventListener('click', () => window.location.href = "https://github.com/Abhishekkr93")
+document.querySelector('.instagram').addEventListener('click', () => window.location.href = "https://instagram.com/amazing__ak")
+document.querySelector('.dev').addEventListener('click', () => window.location.href = "https://dev.to/amazing__ak")
+document.querySelector('.linkedin').addEventListener('click', () => window.location.href = "https://www.linkedin.com/in/abhishek-kumar-544057174")
+document.querySelector('.mail').addEventListener('click', () => window.location.href = 'mailto:abhishek.btech.ec18@iiitranchi.ac.in')
 
 
 
