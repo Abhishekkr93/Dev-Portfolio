@@ -1,0 +1,180 @@
+:root {
+  --bg:#304F6F;
+  }
+  
+  @font-face {
+    font-family: 'Jungle_Roar';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/Jungle_Roar_Bold.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+  }
+  body {
+    background: var(--bg);
+    font-family: 'Jungle_Roar';
+    color: azure;
+  }
+  
+  header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+  .left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    padding-left: 8%;
+    padding-top: 15%;
+  }
+  .right{
+    width: 60%;
+    height: 100%;
+    position: relative;
+  }
+  .right > img{
+    width: 70%;
+  }
+  .icon{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: azure;
+    font-size: 100px;
+    color: var(--bg);
+  }
+  .icon > img{
+    position: absolute;
+    padding: 50px;
+    color: var(--bg);
+    width: 100px;
+  }
+  .main{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .main-item{
+    margin: 50px;
+  }
+  footer{
+    display: flex;
+  }
+  .left-footer{
+    width: 50%;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .right-footer{
+    width: 50%;
+  }
+  .project{
+    display: flex;
+    flex-flow: wrap;
+  }
+  .project-item{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    background-color: azure;
+    border-radius: 20px;
+    color: var(--bg);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 15px 10px 15px #808299,
+                -15px -10px 10px #174675
+  }
+  
+  
+  .sm{
+    background-color: azure;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    font-size: 50px;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 4px 5px 2px #4b6b8a;
+  }
+  .sm > i{
+    color: var(--bg);
+    padding: 17px;
+  }
+  nav{
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    background-color: var(--bg);
+  }
+  .nav-item{
+    margin: 20px;
+  }
+  a{
+    text-decoration: none;
+    font-weight: 400;
+    color: azure;
+  }
+  form{
+    position: relative;
+    height: 200px;
+    display: block;
+  }
+  
+  .sm :hover{
+    font-size: 60px;
+    padding: 13px;
+    transform: rotate(20deg);
+    transition: 1s;
+    opacity: 0.8;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  input, textarea, form>button{
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+    header{
+      display: inline;
+    }
+    footer{
+      display: inline;
+    }
+    .left{
+      width: 90%;
+    }
+    .right{
+      width: 100%;
+      text-align: center;
+    }
+  
+    .left-footer{
+      width: 100%;
+    }
+    .right-footer{
+      width: 100%;
+    }
+    .main-item{
+      margin: 10px;
+    }
+    .icon{
+      height: 150px;
+      width: 150px;
+    }
+    .icon > i{
+      padding: 25px;
+    }
+  }
+  .project-item > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
